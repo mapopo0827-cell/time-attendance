@@ -1,0 +1,20 @@
+cat << 'EOF' > .gitignore
+# Laravel
+/back/vendor
+/back/.env
+/back/storage/*.key
+/back/storage/logs
+/back/storage/framework
+/back/public/build
+
+# React
+/front/node_modules
+/front/dist
+/front/.env
+/front/.env.*
+
+# Common
+.DS_Store
+.idea
+.vscode
+EOF
